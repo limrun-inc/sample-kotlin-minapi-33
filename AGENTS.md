@@ -17,8 +17,12 @@ Once you have an APK file, you can get an emulator from Limrun:
 ```bash
 lim android create
 ```
+This will start the `adb` tunnel automatically.
 
-This will start the `adb` tunnel automatically. So, you can install the app with `adb install` command.
+You can install your APK with the following command:
+```bash
+lim android install-app <path to apk file>
+```
 
 For quick tests, you can use `lim android` commands like tapping, screenshots, element tree etc.
 
