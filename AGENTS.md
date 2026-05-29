@@ -28,4 +28,14 @@ lim android install-app <path to apk file>
 
 For quick tests, you can use `lim android` commands like tapping, screenshots, element tree etc.
 
+While testing, you can trigger recording of the Android screen:
+```bash
+lim android record start
+```
+
+Once the test is completed, you can have it written to a file you can show to user or upload:
+```bash
+lim android record stop -o recording.mp4
+```
+
 See what's available with `lim android --help`
