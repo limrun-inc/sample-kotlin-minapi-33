@@ -17,7 +17,9 @@ Once you have an APK file, you can get an emulator from Limrun:
 ```bash
 lim android create
 ```
-This will start the `adb` tunnel automatically.
+This will start the `adb` tunnel automatically. Also, it will return a signed stream URL
+that you can open in the browser to or tell user to open in their browser to stream the
+Android screen.
 
 You can install your APK with the following command:
 ```bash
